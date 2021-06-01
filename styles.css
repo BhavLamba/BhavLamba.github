@@ -1,0 +1,38 @@
+body {
+    background-image: url(grass.jpg);
+    background-repeat: repeat;
+}
+.Title {
+    color: white;
+    padding: 5px;
+    border: 10px white solid;
+    font-size: 60px;
+    font-style: unset;
+}
+.x1Road {
+    position: absolute;
+    left: 0px;
+    top: 25px;
+    height: 100%;
+    width: 100%;
+
+}
+.redCar {
+    position: absolute;
+    left: 0px;
+    top: 430px;
+    height: 15%;
+    animation: carAnimate 5s linear infinite;
+}
+@keyframes carAnimate {
+    0% {
+        left: 0px;
+    }
+    50% {
+        left: 1000px;
+    }
+    100% {
+        left: 2000px;
+    }
+
+}
